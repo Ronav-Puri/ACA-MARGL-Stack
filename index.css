@@ -1,0 +1,53 @@
+board{
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    font-family: "Arial";
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 0%;
+    border: 0px;
+}
+
+.index{
+    margin-left: 20px;
+    display: inline;
+}
+
+.index1{
+    color: red;
+    font-size: 25px;
+    display: inline;
+}
+
+.index2{
+    color: blue;
+    font-size: 25px;
+    display: inline;
+}
+
+.not-selected{
+    color: grey;
+}
+
+.player1{
+    color: red;
+}
+
+.player2{
+    color: blue;
+}
+
+.row:after{
+    clear: both;
+    content: '';
+    display: table;
+}
